@@ -1,7 +1,7 @@
 `LanguageToolBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/natural_language/LanguageToolBear.py>`_
 ====================
 
-Checks the code with LanguageTool.
+Checks the code with LanguageTool, which is also a dependency.
 
 `Supported Languages <../README.rst>`_
 -----
@@ -37,11 +37,10 @@ Settings
 
 Dependencies
 ------------
-
+	`LanguageTool <https://languagetool.org>`_
 .. code-block:: bash
 
     $ pip install guess-language-spirit==0.5.*
-
 
 
 Can Detect
